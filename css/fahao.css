@@ -1,0 +1,117 @@
+.fh-main{width:1000px;margin:0 auto;background:#fff;margin-top:20px;}
+
+.slider-show .slider{width:712px;height:450px;float:left;position:relative;overflow:hidden;}
+.slider .slider-img{height:450px;position:absolute;}
+.slider .slider-img li{width:712px;height:450px;float:left;overflow:hidden;}
+.slider .point{position:absolute;bottom:10px;right:10px;width:150px;height:20px;}
+.slider .point span{display:inline-block; width:10px;height:10px; margin:0 5px;background:url(../images/point_normal.png) no-repeat;cursor:pointer;}
+.slider .point span.cur{background:url(../images/point_cur.png) no-repeat;}
+.hot-gift{float:right;width:287px;border-left:1px solid #f2f2f2;padding-top:15px;}
+.hot-gift h3{height:34px;border-bottom:2px solid #e0e0e0;position:relative;}
+.hot-gift h3 span{display: inline-block;width: 130px;height: 34px;font-size: 20px;border-bottom: 2px solid #14a0e6;text-align: center;position: absolute;left: 0;top: 0;color: #2e2e2e;font-weight: bold;}
+.hot-gift .hot-gift-list li{position:relative;width:287px;height: 79px;border-bottom: 1px solid #f2f2f2;}
+.hot-gift .hot-gift-list li dl{display: block;padding: 9px 0 9px 24px;height: 62px;}
+.hot-gift .hot-gift-list li dl dt {width: 70px;float: left;position: relative;}
+.hot-gift .hot-gift-list li dl dt  img{width: 58px;height: 58px;vertical-align:middle;}
+.hot-gift .hot-gift-list li dl dt p{position: absolute;left: 0;top: 0;width: 58px;height: 58px;background: url(../images/58.png) no-repeat;}
+.hot-gift .hot-gift-list li dl dd{width:198px;margin-top: 10px;font-size: 12px;color: #999999;}
+
+.hot-gift .hot-gift-list li dl dd .game-name{display: block;width: 128px;font-size: 14px;color: #464646;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;-ms-text-overflow: ellipsis;-moz-binding: url(assets/xml/ellipsis.xml#ellipsis);}
+
+.hot-gift .hot-gift-list li .get{position:absolute;bottom:5px;right:10px;}
+.hot-gift .hot-gift-list li .get a{padding:1px 3px;font-size;12px;color:#fff;}
+.hot-gift .hot-gift-list li .get a.ling{background:#14a0e6;margin-right:3px;}
+.hot-gift .hot-gift-list li .get a.tao{background:#ff6600;}
+
+.new-gift{padding:17px;}
+.new-gift .new-gift-title{border:1px solid #eeeeee;height:38px;line-height:38px;}
+.new-gift .new-gift-title span{padding:2px 4px;margin:0 10px;}
+.new-gift .new-gift-title span.cur{background:#14a0e6;border-radius:2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;color:#fff;}
+
+.new-gift  .new-gift-game{border-left:1px solid #dcdcdc;border-top:1px solid #dcdcdc;margin-top:10px;}
+.lb-lists  li{float:left;width:192px;height:191px;border-bottom:1px solid #dcdcdc;border-right:1px solid #dcdcdc;}
+.lb-lists  li a{display:inline-block;width:193px;height:190px;}
+.lb-lists  li a.djlb{border-top:2px solid #cf0e0e;}
+.lb-lists  li a.xsk{border-top:2px solid #f2d015;}
+.lb-lists  li a.jhm{border-top:2px solid #15dbf3;}
+
+.lb-lists  li dl dt{margin-top:27px;margin-left:46px;margin-bottom:5px;position:relative;width:100px;height:100px;}
+.lb-lists  li dl dt img{width:100px;height:100px;vertical-align:middle;}
+.lb-lists  li dl dt p{position:absolute;width:100px;height:100px;top:0;left:0;background:url(../images/1.png) no-repeat;z-index:99;}
+.lb-lists  li dl dt span.tao{display:inline-block;width:37px;height:32px;position:absolute;right:0;bottom:0;z-index:9;background:url(../images/tao.png) 0 0 no-repeat;}
+.lb-lists  li dl dt span.ling{display:inline-block;width:37px;height:32px;position:absolute;right:0;bottom:0;z-index:9;background:url(../images/tao.png) 0 -32px no-repeat;}
+.lb-lists li dl dd{text-align:center;}
+.lb-lists  li dl dd span{display:inline-block;color:#000;}
+
+.hot-gift .hot-active-list li{margin-top:20px;}
+.hot-gift .hot-active-list li img{margin-left:20px;width:250px;height:158px;}
+.game-fh-info{width:712px;float:left;}
+.game-fh-info .game-card-info{padding:25px 30px;border-bottom:1px solid #f2f2f2;}
+.game-fh-info .game-card-info .card-icon{float:left;}
+.game-fh-info .game-card-info dl {width:470px;}
+.game-fh-info .game-card-info dl dt{float:left;position:relative;margin-right:20px;}
+.game-fh-info .game-card-info dl dt img{width:120px;height:120px;}
+.game-fh-info .game-card-info dl dt p{position:absolute;top:0;left:0;width:120px;height:120px;background:url(../images/120.png) no-repeat;}
+.game-fh-info .game-card-info dl dd span{display:inline-block;width:320px;font-size:12px;color:#898989;margin-top:4px;}
+.game-fh-info .game-card-info dl dd span i{font-style:normal;}
+.game-fh-info .game-card-info dl dd span.name{font-size:22px;color:#000;font-weight:bold;}
+.width-d{width:250px;float:right;margin-top:7px}
+.progress-bar{width:180px;height:4px;background:#e5e5e5;position:relative;float:left;}
+.width-d i{float:right;margin-top:-7px;}
+.game-fh-info .game-card-info dl dd span .progress-bar b.jdt{height:4px;width:100%;position:absolute;top:0px;left:0;}
+.blue b{background:#14a0e6;}
+
+.game-fh-info .game-card-info  .card-btn{float:right;width:180px;margin-top:10px;}
+.card-btn a{display:inline-block;width:119px;height:43px;margin-bottom:20px;line-height:43px;margin-left:45px;text-align:center;font-size:15px;font-weight:bold;}
+.card-btn a.ling-btn{background:url(../images/t-btn.jpg) 0 0 no-repeat;color:#fff;}
+.card-btn a.tao-btn{background:url(../images/t-btn.jpg) 0 -43px no-repeat;color:#281a01;}
+.game-fh-info .lb-con{padding:20px 30px;border-bottom:1px solid #f2f2f2;}
+.game-fh-info .lb-con h3{font-size:16px;color:#14a0e6;font-weight:bold;text-align:center;}
+.game-fh-info .lb-con div{color:#686868;margin:15px 0;font-size:16px;}
+.game-fh-info .lb-con div span{font-weight:bold;}
+.game-fh-info .xglb-con{padding:20px 9px;}
+.game-fh-info .xglb-con h3{font-size:16px;color:#14a0e6;font-weight:bold;text-align:center;}
+ul.lb-lists-new {width:692px;border-top:1px solid #e0e0e0;border-left:1px solid #e0e0e0;}
+ul.lb-lists-new li{width:172px;height:171px;}
+ul.lb-lists-new  li a{display:inline-block;width:172px;height:170px;}
+ul.lb-lists-new   li dl dt{margin-top:15px;margin-left:36px;margin-bottom:5px;position:relative;width:100px;height:100px;}
+
+#cover{position: absolute;top:0;left:0;display: none;background: #000;opacity: 0.5;filter: alpha(opacity=50);z-index: 201;}
+.shadow {position: fixed;_position: absolute;top: 0;left: 0;z-index: 202;display: none;width: 300px;border: 1px solid #d0d0d0;height: 140px;overflow: hidden;background: #f6f6f6;border-radius:2px;}
+
+
+.shadow  p{height:25px;line-height:25px;margin-top:10px;margin-left:10px;}
+.shadow  p .flbc{display:inline-block;width:20px;height:20px;background:url(../images/cls.gif)0 0 no-repeat;float:right;margin-right:15px;margin-top:3px;}
+.shadow .text{text-align:center;padding:10px 0;}
+.sure{width:60px;height:25px;background:#14a0e6;color:#fff;margin-top:20px;margin-left:120px;}
+
+
+/*我的礼包*/
+.my-bag-main{width:1000px;margin:0 auto;margin-top:20px;background:#fff;min-height:650px;margin-bottom:20px;}
+.my-bag-main-left{float:left;width:712px;}
+.my-bag-main-left .my-bag-list li{padding:25px 0;border-bottom:1px solid #f2f2f2;}
+.my-bag-main-left .my-bag-list li dl{width:490px;float:left;}
+.my-bag-main-left .my-bag-list li dl dt{width:120px;height:120px;float:left;margin:0 30px;position:relative;}
+.my-bag-main-left .my-bag-list li dl dt img{width:120px;height:120px;vertical-align:middle;}
+.my-bag-main-left .my-bag-list li dl dt p{width:120px;height:120px;position:absolute;top:0;left:0;background:url(../images/120.png) no-repeat;}
+.my-bag-main-left .my-bag-list li dl dd{width:310px;float:right;}
+.my-bag-main-left .my-bag-list li dl dd h3{font-size:22px;font-weight:bold;width:310px;display:inline-block;white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;}
+.my-bag-main-left .my-bag-list li dl dd h3 a{color:#000;}
+.my-bag-main-left .my-bag-list li dl dd h3 a:hover{color:#14a0e6;}
+.my-bag-main-left .my-bag-list li dl dd span{display:inline-block;width:310px;color:#898989;font-size:14px;margin-top:5px;}
+.my-bag-main-left .my-bag-list li dl dd span i{font-style:normal;}
+.my-bag-main-left .my-bag-list li dl dd span.name{white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;}
+.my-bag-main-left .my-bag-list li .bag-detail{float:left;margin-left:50px;display:inline-block;width:119px;height:43px;background:url(../images/t-btn.jpg) 0 0 no-repeat;font-size:15px;color:#fff;text-align:center;line-height:43px;margin-top:43px;}
+
+.my-bag-main-right{width:287px;float:right;border-left:1px solid #f2f2f2;padding-top:10px;min-height:650px;}
+.my-bag-main-right h3{height:40px;line-height:40px;border-bottom:2px solid #e0e0e0;font-size:20px;}
+.my-bag-main-right h3 span{display:inline-block;width:104px;padding-left:26px;height:40px;line-height:40px;border-bottom:2px solid #14a0e6;}
+
+.my-bag-main-right ul{padding-top:10px;}
+.my-bag-main-right ul li {padding:0 18px;margin-top:10px;}
+.my-bag-main-right ul li img{width:250px;height:158px;}
+
+
+
+
+

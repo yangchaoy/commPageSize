@@ -1,0 +1,65 @@
+*{padding:0;margin:0;border:0}
+body {width:100%; margin:0 auto; background:#f3f1f0; font-family:"Microsoft YaHei","Arial","sans-serif";color:#2e2e2e;font-size:14px;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+a {text-decoration:none;}
+img {border-width:0px;}
+ul li{list-style:none;}
+.clearfix:after {clear: both;display: block;content: "";visibility: hidden;height: 0;}
+.clearfix {*zoom: 1;}
+a {outline: none;}
+table td{padding:0;}
+
+.header{width:100%;height:69px;border-bottom:1px solid #999;background:#fff;}
+#head{width:960px;height:69px; margin:0 auto;overflow:hidden;}
+#head h2{padding-top:14px;width:227px;margin-right:20px;float:left;background:none;margin-left:0;}
+#head h2 a{display:inline-block;width:227px;height:39px;background:url(../images/logo-kc.png) no-repeat;}
+#head .nav{width:340px;float:left;height:69px;background:none;top:0;left:0;position:static;}
+#head .nav li{float:left; margin:0 20px;height:69px;line-height:69px;cursor:pointer;}
+#head .nav li a{color:#333;}
+#head .nav li a.cur{color:#44a2d8}
+#head .nav li:hover a{color:#44a2d8}
+
+#head .form{width:200px;height:34px;background:url(../images/search-kc.gif) no-repeat;float:left;margin-top:19px;margin-left:10px;position:relative;}
+#head .form .search-text{position:absolute;width:155px;height:24px;padding:5px 0 5px 10px;top:0;left:0;background:none;}
+#head .form .search-btn{position:absolute;width:35px;height:34px;top:0;right:0;background:url(../images/search-kc-btn.jpg) center no-repeat;cursor:pointer;}
+#head  .login{float:right;width:140px;height:34px;margin-top:19px;color:#333;line-height:34px;}
+#head  .login a{color:#333;}
+#head  .login .name{display:inline-block;width:80px;height:34px;float:left;text-align:center;}
+#head  .login .exit{display:inline-block;width:60px;height:34px;float:left;text-align:center;color:#333;}
+
+.kaifu{width:960px;margin:0 auto;margin-top:10px;}
+.kaifu h3{height:48px;line-height:48px;font-size:20px;color:#333;font-weight:bold;}
+.k-table{width:960px;border:1px solid #d5d5d5;border-bottom:none;}
+.k-table table{width:100%;}
+.k-table table td{border-bottom:1px solid #d5d5d5;padding:10px 0;font-size:16px;color:#333}
+
+.k-table table td .game-style{font-size:12px;color:#999;margin-left:-40px;}
+.k-table table td.l-td{background:#fff;border-right:1px solid #d5d5d5;}
+.k-table table td.l-td  a{display:inline-block;position:relative;}
+.k-table table td.l-td p{position:absolute;top:0;left:0;background:url(../images/60.png) no-repeat;width:60px;height:60px;}
+.k-table table td .gift-ling{display:inline-block;width:100px;height:40px;background:url(../images/kf-btn.png) 0 0 no-repeat;color:#fff;line-height:40px;margin-left:40px;}
+.k-table table td .gift-down{display:inline-block;width:100px;height:40px;background:url(../images/kf-btn.png) 0 -40px no-repeat;color:#fff;line-height:40px;margin-left:20px;margin-right:23px;}
+
+.kf-table{border:1px solid #d5d5d5;}
+.kf-table table{width:100%;}
+.kf-table table th{border-right:1px solid #d5d5d5;padding:17px 0;color:#2e2e2e;font-size:12px;}
+.kf-table table th.t-th{border:0;}
+.kf-table table tr{color:#646464;}
+.kf-table table  td{border-top:1px solid #d5d5d5;background:#fff;padding:5px 0;}
+
+.kf-table table  td .gift-ling{display:inline-block;width:60px;height:28px;background:url(../images/kf-btn.png) 0 -80px no-repeat;color:#fff;line-height:28px;margin-left:30px;font-size:12px;text-align:center;}
+.kf-table table  td .gift-down{display:inline-block;width:60px;height:28px;background:url(../images/kf-btn.png) 0 -108px no-repeat;color:#fff;line-height:28px;margin-left:10px;font-size:12px;text-align:center;}
+
+
+/*尾部*/
+.footer{margin-top:35px;width:100%;height:153px;background:#ebe9e8;overflow:hidden;}
+.footer-con{width:960px;margin:0 auto;color:#a6a7a9;}
+.footer-con .logo{display:inline-block;float:left;width:210px;height:33px;background:url(../images/logo-fh-b.png) no-repeat;margin:59px 0 0px 0px;}
+.foot-lianjie{float:left;width:390px;font-size:12px;margin-top:52px;margin-left:60px;}
+.foot-lianjie ul{width:200px;margin-left:90px;}
+.foot-lianjie ul li{float:left;font-size:12px;padding:5px 2px;}
+.foot-lianjie ul li a{color:#a6a7a9;}
+.foot-lianjie ul li a:hover{text-decoration:underline;}
+.foot-lianjie p{text-align:center;}
+.footer-con span{float:right;display:inline-block;width:112px;height:113px;margin-right:18px;margin-top:20px;background:url(../images/qr-code.png) no-repeat;}
+/*尾部*/

@@ -1,0 +1,83 @@
+.banner-img{width:100%;height:auto;padding-top:405px;}
+.banner-img #nav{width:1000px;height:45px;margin:0 auto; background:#14a0e6;}
+.banner-img #nav div{cursor:pointer;display:inline-block;width:20%;min-width:110px;font-size:18px;text-align:center;line-height:45px;float:left;overflow:hidden;}
+.banner-img #nav div.cur{background:#148cc8}
+.banner-img #nav a{color:#fff;}
+.banner-img #nav div:hover a{background:#83c8f1;}
+.banner-img #nav div.cur:hover a{background:#148cc8;}
+.banner-img #nav div a{width:100%;height:100%;display:block;}
+.area-main{width:1000px;margin:0 auto;margin-top:10px;margin-bottom:10px;}
+.area-main .game-icon-detail{width:462px;float:left;background:#fff;padding:15px 18px 15px 18px;}
+.area-main .game-icon-detail dl{margin-bottom:15px;}
+.area-main .game-icon-detail dl dt{position:relative;float:left;margin-right:30px;}
+.area-main .game-icon-detail dl dt img{width:120px;height:120px;}
+.area-main .game-icon-detail dl dt p{width:120px;height:120px;position:absolute;left:0;top:0;background:url(../images/120.png) no-repeat;}
+
+.area-main .game-icon-detail dl dd .name{ overflow:hidden;}
+.area-main .game-icon-detail dl dd .name i{font-style:normal; float:left;font-size:22px; height:22px; line-height:22px;font-weight:bold; overflow:hidden; display:inline-block;}
+.area-main .game-icon-detail dl dd .name span{padding:1px 4px; height:20px; float:left;line-height:20px; margin-left:5px;background:#14a0e6;color:#fff;border-radius:2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;}
+.area-main .game-icon-detail dl dd .detail span{display: inline-block;width: 155px;float: left;font-size: 12px;color: #898989;margin-top: 5px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;color:#898989}
+.area-main .game-icon-detail dl dd .detail span i{font-style:normal;}
+.area-main .game-icon-detail dl dd .down-btn .download{display:inline-block;width:112px;height:40px;background:url(../images/btn-download2.jpg) no-repeat;margin-top:6px;}
+.area-main .game-icon-detail p.text{color:#898989;height:120px;overflow:hidden;}
+
+.area-main .game-gift-list{float:right;width:498px;background:#fff;padding-bottom:20px;}
+.area-main .game-gift-list h3{height:58px;border-bottom:2px solid #d9dada;background:#fff;line-height:58px;}
+.area-main .game-gift-list h3 span{display:inline-block;width:130px;padding-left:20px;height:58px;line-height:58px;font-size:20px;border-bottom:2px solid #14a0e6;}
+.area-main .game-gift-list h3 a{float:right;margin-right:15px;color:#2e2e2e;font-size:14px;}
+.game-gift-lists{padding:0 18px;}
+.game-gift-lists li{border-bottom:1px solid #e4e4e4;height:39px;line-height:39px;padding-left:5px;color:#333;}
+.game-gift-lists li a{color:#333;}
+.game-gift-lists li a:hover{color:#14a0e6;}
+.game-gift-lists li .gift-number{display:inline-block;width:150px;float:right;margin-right:px;}
+
+.game-gift-lists li .gift-number a.ling{display:inline-block;width:60px;height:26px;text-align:center;line-height:26px;margin-right:15px;background:url(../images/t-btn-s.png) 0 0 no-repeat;color:#fff;}
+.game-gift-lists li .gift-number a.tao{display:inline-block;width:60px;height:26px;text-align:center;line-height:26px;background:url(../images/t-btn-s.png) 0 -26px no-repeat;color:#281a01;}
+
+.area-con{width:1000px;margin:0 auto;}
+.lists-active{width:498px;background:#fff;padding-bottom:20px;}
+.lists-active h3{height:58px;border-bottom:2px solid #d9dada;line-height:58px;}
+.lists-active h3 span{display:inline-block;width:130px;padding-left:20px;height:58px;line-height:58px;font-size:20px;border-bottom:2px solid #14a0e6;}
+.lists-active h3 a{float:right;margin-right:15px;color:#2e2e2e;font-size:14px;}
+.lists-active  ul{padding:0 18px;padding-bottom: 15px;}
+.lists-active  ul li{height:39px;line-height:39px;border-bottom:1px solid #e4e4e4;color:#000;}
+.lists-active  ul li a{color:#000;}
+.lists-active  ul li a:hover{color:#14a0e6;}
+.lists-active  ul li span.data{float:right;}
+
+/*截图*/
+.jietu{width:1000px;margin:0 auto;margin-top:10px;} 
+.jietu h3{height:40px;line-height:40px;text-align:center;font-size:20px;background:#fff;}
+.jietu  .jietu-img{padding:5px 0;}
+.jietu  .jietu-img a{display:inline-block;width:247px;height:370px;float:left;margin-right:4px;}
+.jietu  .jietu-img a img{width:247px;height:370px;}
+/*友情链接*/
+.friend-lianjie{width:982px;padding:10px 0 10px 18px;margin:0 auto;background:#fff;margin-bottom:20px;}
+.friend-lianjie p{font-size:20px;color:#000;margin-bottom:5px;}
+.friend-lianjie ul li{float:left;margin:5px 0;margin-right:13px;}
+.friend-lianjie ul li a{font-size:15px;color:#000;}
+.friend-lianjie ul li a:hover{color:#14a0e6;}
+
+/*游戏专区次级*/
+.area-c{width:1000px;margin:0 auto;margin-bottom:20px;}
+div.area-c-left{width:680px;float:left;padding:0;}
+/*次级右边*/
+.area-c-right{width:316px;float:right;}
+.area-c-right .gonggao{background:#fff;}
+.area-c-right .tuijian-area{margin-top:10px;background:#fff;padding-bottom: 193px;}
+.area-c-right h3{height:58px;border-bottom:2px solid #d9dada;line-height:58px;}
+.area-c-right h3 span{display:inline-block;width:130px;padding-left:20px;height:58px;line-height:58px;font-size:20px;border-bottom:2px solid #14a0e6;}
+.area-c-right h3 a{float:right;margin-right:15px;color:#2e2e2e;font-size:14px;}
+.area-c-right h3 a:hover{color:#14a0e6;}
+
+.area-lists{padding:0 20px 20px 20px;}
+.area-lists li{height:39px;line-height:39px;border-bottom:1px solid #e4e4e4;color:#000;}
+.area-lists li a{color:#000;}
+.area-lists li a:hover{color:#14a0e6;}
+.area-lists li .gift-number{display:inline-block;width:70px;float:right;}
+.area-lists li .gift-number a.ling{display:inline-block;width:26px;height:26px;text-align:center;line-height:26px;margin-right:15px;background:url(../images/area-tao.png) 0 0 no-repeat;color:#fff;}
+.area-lists li .gift-number a.tao{display:inline-block;width:26px;height:26px;text-align:center;line-height:26px;background:url(../images/area-tao.png) 0 -26px no-repeat;color:#281a01;}
+
+.area-c-right .tuijian-area ul {margin-top:10px;padding:0 12px;padding-bottom:15px;}
+.area-c-right .tuijian-area ul li{margin-top:5px;}
+.area-c-right .tuijian-area ul li img{width:290px;height:185px;}
